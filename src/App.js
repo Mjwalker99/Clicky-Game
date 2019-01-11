@@ -40,7 +40,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      rightWrong: ""
+      rightWrong: "Correct!"
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "",
+      rightWrong: "Incorrect!",
       clicked: []
     });
     this.handleShuffle();
