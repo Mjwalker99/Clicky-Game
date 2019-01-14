@@ -20,9 +20,9 @@ In this project, I created a simple memory game with React. The goal here was to
 
  5. The application keeps track of the users Best Score, and updates it when the user achieves a new Best Score.
 
-Technologies Leveraged
-HTML
-CSS
-JavaScript
-Node.js
-React
+### Technologies Leveraged
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* React
